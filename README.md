@@ -5,6 +5,7 @@ free oxid module to show an age gate when customer enters the shop
 
 
 Features
+
 	- displays agegate on entry
 	- saves commitment into cookie for 7 days
 	- simple activate/deactivate in shop admin
