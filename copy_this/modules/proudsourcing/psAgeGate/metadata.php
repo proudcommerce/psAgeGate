@@ -16,7 +16,7 @@ $aModule = array(
     ),
     'thumbnail'    => '',
     'version'      => '1.1.0',
-    'author'       => 'Proud Sourcing GmbH & <strong style="font-size: 17px;color:#04B431;">e</strong><strong style="font-size: 16px;">ComStyle.de</strong>',
+    'author'       => 'Proud Sourcing GmbH',
     'url'          => 'http://www.proudcommerce.com',
     'email'        => 'support@proudcommerce.com',
     'extend'       => array(
@@ -33,7 +33,7 @@ $aModule = array(
         array('group' => 'ecs_main', 'name' => 'ecs_text', 'type' => 'str',  'value' => 'Der Besuch unserer Website ist erst ab 18 Jahren gestattet, das sieht der Gesetzgeber so und wir auch! '),
         array('group' => 'ecs_main', 'name' => 'ecs_ok', 'type' => 'str',  'value' => 'Ja, ich bin bereits volljaehrig.'),
         array('group' => 'ecs_main', 'name' => 'ecs_notok', 'type' => 'str',  'value' => 'Nein, ich bin noch nicht volljaehrig.'),
-        array('group' => 'ecs_main', 'name' => 'ecs_linknotok', 'type' => 'str',  'value' => 'http://ecomstyle.de/'),
+        array('group' => 'ecs_main', 'name' => 'ecs_linknotok', 'type' => 'str',  'value' => 'http://www.google.de'),
         array('group' => 'ecs_main', 'name' => 'ecs_buttonnotok', 'type' => 'bool',  'value' => 'true'),
     ),
 );

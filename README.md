@@ -1,8 +1,8 @@
 psAgeGate
 =========
 
-free oxid module to show an age gate when customer enters the shop
-
+Shows an age gate when customer enters the shop.
+Free Module for OXID eShop.
 
 Features
 
@@ -33,6 +33,12 @@ License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
 
-Take if you need and feel free to send a pull request. ;-)
+Copyright
 
-(c) Proud Sourcing GmbH 2013
+	Proud Sourcing GmbH 2013
+	www.proudcommerce.com
+
+
+Credentials
+
+	Thanks to eComStyle.de (1.1.0)
