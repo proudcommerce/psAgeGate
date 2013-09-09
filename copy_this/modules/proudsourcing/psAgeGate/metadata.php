@@ -16,7 +16,7 @@ $aModule = array(
     ),
     'thumbnail'    => '',
     'version'      => '1.1.0',
-    'author'       => 'Proud Sourcing GmbH & <strong style="font-size: 17px;color:#04B431;">e</strong><strong style="font-size: 16px;">ComStyle.de</strong>',
+    'author'       => 'Proud Sourcing GmbH',
     'url'          => 'http://www.proudcommerce.com',
     'email'        => 'support@proudcommerce.com',
     'extend'       => array(

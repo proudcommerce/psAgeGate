@@ -37,3 +37,8 @@ Copyright
 
 	Proud Sourcing GmbH 2013
 	www.proudcommerce.com
+
+
+Credentials
+
+	Thanks to eComStyle.de (1.1.0)
