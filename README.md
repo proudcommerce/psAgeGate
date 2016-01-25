@@ -6,6 +6,7 @@ Free Module for OXID eShop.
 
 Features
 
+	- working for OXID 4.7/4.8/4.9
 	- displays agegate on entry
 	- saves commitment into cookie for 7 days
 	- simple activate/deactivate in shop admin
@@ -35,7 +36,7 @@ License
 
 Copyright
 
-	Proud Sourcing GmbH 2013
+	Proud Sourcing GmbH 2016
 	www.proudcommerce.com
 
 
