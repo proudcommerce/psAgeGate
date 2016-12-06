@@ -17,6 +17,9 @@ Installation
 	2. activate module psAgeGate in shop admin
 
 
+Tip: Use the [OXID module connector](https://github.com/OXIDprojects/OXID-Module-Connector) to install this module.
+
+
 License
 
     This program is free software: you can redistribute it and/or modify
