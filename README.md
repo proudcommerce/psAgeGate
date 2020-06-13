@@ -1,24 +1,26 @@
 psAgeGate
 =========
 
-Shows an age gate when customer enters the shop.
-Free module for OXID eshop 4.7, 4.8, 4.9 and 4.10.
+Shows an age gate when customer enters the shop (wave theme).
+Free module for OXID eShop 6.x (see [master](https://github.com/proudcommerce/psAgeGate) branch for oxid 4/5)
 
 Features
 
 	- displays agegate on entry
 	- saves commitment into cookie for 7 days
 	- simple activate/deactivate in shop admin
+	- config text values in shop admin
 
 
 Installation
 
-	1. copy content from copy_this folder into your shop root
-	2. activate module psAgeGate in shop admin
+1. ```composer require proudcommerce/psagegate``` 
+2. activate module psAgeGate in shop admin
 
 
-Tip: Use the [OXID module connector](https://github.com/OXIDprojects/OXID-Module-Connector) to install this module.
+Changelog
 
+	2020-06-13	2.0.0	release for oxid 6
 
 License
 
@@ -38,5 +40,4 @@ License
 
 Copyright
 
-	Proud Sourcing GmbH 2016
-	www.proudcommerce.com / www.proudsourcing.de
+	ProudCommerce 2020 | www.proudcommerce.com

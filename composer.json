@@ -1,0 +1,19 @@
+{
+  "name": "proudcommerce/psagegate",
+  "description": "Shows an age gate when customer enters the shop.",
+  "type": "oxideshop-module",
+  "license": [
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "ProudCommerce",
+      "homepage": "https://www.proudcommerce.com/"
+    }
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "pc/psagegate"
+    }
+  }
+}
