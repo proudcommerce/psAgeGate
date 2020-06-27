@@ -8,7 +8,7 @@
  * @copyright ProudCommerce | 2020
  * @link www.proudcommerce.com
  * @package psAgeGate
- * @version 2.0.0
+ * @version 2.1.0
  **/
 
 /**
@@ -27,7 +27,7 @@ $aModule = [
         'en' => 'Shows an age gate when customer enters the shop.'
     ],
     'thumbnail'   => 'logo_pc-os.jpg',
-    'version'     => '2.0.0',
+    'version'     => '2.1.0',
     'author'      => 'ProudCommerce',
     'url'         => 'http://www.proudcommerce.com',
     'email'       => '',
@@ -41,11 +41,12 @@ $aModule = [
         ['template' => 'layout/footer.tpl', 'block' => 'footer_main', 'file' => 'footer_main.tpl'],
     ],
     'settings'    => [
-        ['group' => 'ecs_main', 'name' => 'ecs_h1', 'type' => 'str', 'value' => 'Bist du schon volljaehrig?'],
-        ['group' => 'ecs_main', 'name' => 'ecs_text', 'type' => 'str', 'value' => 'Der Besuch unserer Website ist erst ab 18 Jahren gestattet, das sieht der Gesetzgeber so und wir auch! '],
-        ['group' => 'ecs_main', 'name' => 'ecs_ok', 'type' => 'str', 'value' => 'Ja, ich bin bereits volljaehrig.'],
-        ['group' => 'ecs_main', 'name' => 'ecs_notok', 'type' => 'str', 'value' => 'Nein, ich bin noch nicht volljaehrig.'],
-        ['group' => 'ecs_main', 'name' => 'ecs_linknotok', 'type' => 'str', 'value' => 'http://www.google.de'],
-        ['group' => 'ecs_main', 'name' => 'ecs_buttonnotok', 'type' => 'bool', 'value' => 'true'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_logo', 'type' => 'str', 'value' => '/out/flow/logo_oxid.png'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_h1', 'type' => 'str', 'value' => 'Bist du schon volljaehrig?'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_text', 'type' => 'str', 'value' => 'Der Besuch unserer Website ist erst ab 18 Jahren gestattet.'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_ok', 'type' => 'str', 'value' => 'Ja, ich bin bereits volljaehrig.'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_notok', 'type' => 'str', 'value' => 'Nein, ich bin noch nicht volljaehrig.'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_linknotok', 'type' => 'str', 'value' => 'http://www.google.de'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_buttonnotok', 'type' => 'bool', 'value' => 'true'],
     ],
 ];

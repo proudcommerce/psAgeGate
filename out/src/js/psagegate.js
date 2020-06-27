@@ -1,6 +1,9 @@
 $(document).ready(function () {
     if (!psGetCookie('psagegate')) {
-        $('#psAgeGateLayer').modal('show');
+
+        $('#psAgeGateLayer').modal({show: true, backdrop: 'static', keyboard: false});
+        $('.modal-backdrop').css({opacity: 0, transition: 'opacity .2s'});
+        $('.modal-backdrop.show').css({opacity: 0.75});
     } else {
         $("#psAgeGateLayer").hide();
     }

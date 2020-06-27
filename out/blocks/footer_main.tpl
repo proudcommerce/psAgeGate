@@ -11,25 +11,32 @@
 [{ oxscript include=$oViewConf->getModuleUrl("psAgeGate", "out/src/js/psagegate.js") }]
 [{assign var="oConf" value=$oViewConf->getConfig()}]
 
-<div class="modal fade basketFlyout" id="psAgeGateLayer" tabindex="-1" role="dialog" aria-labelledby="psAgeGateLayer" aria-hidden="true" style="z-index:10000;">
-    <div class="modal-dialog">
+<div class="modal fade basketFlyout" id="psAgeGateLayer" tabindex="-1" role="dialog" aria-labelledby="psAgeGateLayer"
+     aria-hidden="true" style="z-index:10000;">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-header">
-                <b>[{$oConf->getConfigParam('ecs_h1') }]</b>
-            </div>
-            <div class="modal-body">
-                [{$oConf->getConfigParam('ecs_text') }]
-            </div>
-            <div class="modal-footer text-center" style="display: inline;">
-                <button class="btn btn-primary" onClick="psAgeGate();">
-                    <b>[{$oConf->getConfigParam('ecs_ok') }]</b>
-                </button>
-                [{if $oConf->getConfigParam('ecs_buttonnotok')}]
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <button class="btn btn-outline-dark" onClick="location.href='[{$oConf->getConfigParam('ecs_linknotok') }]';">
-                        <b>[{$oConf->getConfigParam('ecs_notok') }]</b>
-                    </button>
+            <div class="modal-body text-center" style="line-height: 3; padding: 30px;">
+                [{assign var="logo" value=$oConf->getConfigParam('psagegate_logo')}]
+                [{if $logo}]
+                    <img src="[{$logo}]" style="max-height: 150px;"><br>
                 [{/if}]
+                <h2>[{$oConf->getConfigParam('psagegate_h1') }]</h2>
+                [{$oConf->getConfigParam('psagegate_text') }]
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <button class="btn btn-primary" onClick="psAgeGate();">
+                            <b>[{$oConf->getConfigParam('psagegate_ok') }]</b>
+                        </button>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        [{if $oConf->getConfigParam('psagegate_buttonnotok')}]
+                        <button class="btn btn-outline-dark"
+                                onClick="location.href='[{$oConf->getConfigParam('psagegate_linknotok') }]';">
+                            <b>[{$oConf->getConfigParam('psagegate_notok') }]</b>
+                        </button>
+                        [{/if}]
+                    </div>
+                </div>
             </div>
         </div>
     </div>
