@@ -42,10 +42,10 @@ $aModule = [
     ],
     'settings'    => [
         ['group' => 'psagegate_main', 'name' => 'psagegate_logo', 'type' => 'str', 'value' => '/out/flow/logo_oxid.png'],
-        ['group' => 'psagegate_main', 'name' => 'psagegate_h1', 'type' => 'str', 'value' => 'Bist du schon volljaehrig?'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_h1', 'type' => 'str', 'value' => 'Bist du schon volljährig?'],
         ['group' => 'psagegate_main', 'name' => 'psagegate_text', 'type' => 'str', 'value' => 'Der Besuch unserer Website ist erst ab 18 Jahren gestattet.'],
-        ['group' => 'psagegate_main', 'name' => 'psagegate_ok', 'type' => 'str', 'value' => 'Ja, ich bin bereits volljaehrig.'],
-        ['group' => 'psagegate_main', 'name' => 'psagegate_notok', 'type' => 'str', 'value' => 'Nein, ich bin noch nicht volljaehrig.'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_ok', 'type' => 'str', 'value' => 'Ja, ich bin bereits volljährig.'],
+        ['group' => 'psagegate_main', 'name' => 'psagegate_notok', 'type' => 'str', 'value' => 'Nein, ich bin noch nicht volljährig.'],
         ['group' => 'psagegate_main', 'name' => 'psagegate_linknotok', 'type' => 'str', 'value' => 'http://www.google.de'],
         ['group' => 'psagegate_main', 'name' => 'psagegate_buttonnotok', 'type' => 'bool', 'value' => 'true'],
     ],
