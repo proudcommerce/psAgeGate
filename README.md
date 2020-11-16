@@ -20,6 +20,7 @@ Installation
 
 Changelog
 
+	2020-11-16	2.2.0	deactivate for search engines (optional)
 	2020-06-26	2.1.0	improve styling, add logo (optional)
 	2020-06-13	2.0.0	release for oxid 6
 
