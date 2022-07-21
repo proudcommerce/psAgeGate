@@ -2,7 +2,7 @@ psAgeGate
 =========
 
 Shows an age gate when customer enters the shop.
-Free Module for OXID eShop.
+Free module for OXID eshop 4.7, 4.8, 4.9 and 4.10.
 
 Features
 
@@ -15,6 +15,9 @@ Installation
 
 	1. copy content from copy_this folder into your shop root
 	2. activate module psAgeGate in shop admin
+
+
+Tip: Use the [OXID module connector](https://github.com/OXIDprojects/OXID-Module-Connector) to install this module.
 
 
 License
@@ -35,10 +38,5 @@ License
 
 Copyright
 
-	Proud Sourcing GmbH 2013
-	www.proudcommerce.com
-
-
-Credentials
-
-	Thanks to eComStyle.de (1.1.0)
+	Proud Sourcing GmbH 2016
+	www.proudcommerce.com / www.proudsourcing.de

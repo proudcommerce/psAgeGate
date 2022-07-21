@@ -14,7 +14,7 @@ $aModule = array(
         'de' => 'Altersabfrage beim Betreten des Online-Shops. Texte in den Moduleinstellungen einstellbar.',
         'en' => 'show an age gate when customer enters the shop'
     ),
-    'thumbnail'    => '',
+    'thumbnail'    => 'logo_pc-os.jpg',
     'version'      => '1.1.0',
     'author'       => 'Proud Sourcing GmbH',
     'url'          => 'http://www.proudcommerce.com',
